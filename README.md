@@ -1,5 +1,7 @@
 # super-classifier-verifier
 
+symnet: https://github.com/nets-cs-pub-ro/Symnet
+
 формат json file: https://github.com/p4lang/behavioral-model/blob/master/docs/JSON_format.md
 
 пример: https://github.com/p4lang/behavioral-model/blob/master/targets/simple_router/simple_router.json
