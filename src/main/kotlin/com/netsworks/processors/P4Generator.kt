@@ -1,14 +1,13 @@
-package com.netsworks.generator
+package com.netsworks.processors
 
 import java.io.File
 import java.io.FileWriter
 import java.io.Writer
-import java.lang.StringBuilder
 
 /**
  * Use template from resources dir then generate correct P4 compatibility file
  */
-class P4Generator {
+class P4Generator private constructor(){
     companion object {
         private const val TEMPLATE_NAME = "/template.p4"
 
