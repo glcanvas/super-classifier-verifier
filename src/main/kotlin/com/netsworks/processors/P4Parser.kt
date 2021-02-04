@@ -27,6 +27,7 @@ data class Key(
 data class MatchKey(
         @Json(name = "match_type") val matchType: String,
         @Json(name = "key") val key: String,
+        @Json(name = "mask") val mask: String? = null
 )
 
 data class ActionEntry(@Json(name = "action_id") val actionId: Int)
