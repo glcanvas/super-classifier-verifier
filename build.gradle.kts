@@ -14,6 +14,7 @@ plugins {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.beust", "klaxon","5.4")
+    testImplementation("junit", "junit", "4.12")
 }
 repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
