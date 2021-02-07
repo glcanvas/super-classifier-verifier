@@ -60,8 +60,8 @@ private fun isIntersect(matchKey1: MatchKey, matchKey2: MatchKey, key: Key): Boo
             return KeyRange.intersect(key1, key2)
         }
         "ternary" -> {
-            val key1 = KeyRange(Integer.decode(matchKey1.key), Integer.decode(matchKey1.mask ?: "0xffffffff"))
-            val key2 = KeyRange(Integer.decode(matchKey2.key), Integer.decode(matchKey2.mask ?: "0xffffffff"))
+            val key1 = KeyRange(Integer.decode(matchKey1.key), Integer.decode(matchKey1.mask ?: "0xffffff"))
+            val key2 = KeyRange(Integer.decode(matchKey2.key), Integer.decode(matchKey2.mask ?: "0xffffff"))
             return KeyRange.intersect(key1, key2)
         }
         "lpm" -> {
